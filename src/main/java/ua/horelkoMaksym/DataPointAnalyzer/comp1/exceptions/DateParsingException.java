@@ -1,7 +1,5 @@
 package ua.horelkoMaksym.DataPointAnalyzer.comp1.exceptions;
 
-
-
 public class DateParsingException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 

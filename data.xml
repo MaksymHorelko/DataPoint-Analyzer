@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!DOCTYPE datasheet [
+	<!ELEMENT datasheet (data)*>
+	<!ELEMENT data (point)*>
+	<!ELEMENT point (x|y|date)*>
+	<!ELEMENT x (#PCDATA)>
+	<!ELEMENT y (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+]>
+
+<datasheet>
+
+	<data>
+		<point>
+			<x>1.1</x>
+			<y>1.01</y>
+			<date>2020-03-19</date>
+		</point>
+		<point>
+			<x>2.2</x>
+			<y>2.30</y>
+			<date>2020-03-20</date>
+		</point>
+		<point>
+			<x>3.3</x>
+			<y>3.05</y>
+			<date>2020-03-21</date>
+		</point>
+		<point>
+			<x>4.4</x>
+			<y>4.28</y>
+			<date>2020-03-22</date>
+		</point>
+		<point>
+			<x>5.5</x>
+			<y>5.75</y>
+			<date>2020-03-23</date>
+		</point>
+		<point>
+			<x>6.6</x>
+			<y>6.48</y>
+			<date>2020-03-24</date>
+		</point>
+		<point>
+			<x>7.7</x>
+			<y>7.84</y>
+			<date>2020-03-25</date>
+		</point>
+	</data>
+
+</datasheet>
